@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="chinchorros.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title> Categoria Chinchorros.com.co</title>
+    
+</head>
+<body>
+    
+    <header class="header">
+
+        <div class="container-logo">
+            <a href="#" class="logo"  role="link" aria-label="Página chinchorros">
+                <img src="../logo/logo_empresa.png" alt="Logo de la empresa">
+            </a>
+        </div>
+        
+        <nav>
+            <ul class="enlaces-header">        
+                <li><a href="../index.html" class="nav-link"  >Inicio</a></li>
+                <li><a href="../pagina_productos/productos.html" class="nav-link" target="_blank"   >productos</a></li>
+                <li><a href="../formulario_contacto/contacto.html" class="nav-link"   target="_blank">Contacto</a></li>
+                <li><a href="../formulario_login/login.html" class="nav-link"  target="_blank" >Ingresar</a></li>             
+            </ul>   
+        </nav>
+
+        <div class="carrito-compras">
+            <ul>
+                <li class="submenu">
+                    <img src="../img/icono_carrito.png"   id="img-carrito"     alt="">
+                    <div  class="notificacion">
+                        
+                    </div>
+                    <div id="carrito">
+                        <table id="lista-carrito">
+                            <thead>
+                                <tr>
+                                    <th >imagen</th>
+                                    <th>nombre</th>
+                                    <th>precio</th>
+                                    <th>cantidad</th>
+                                    <td>
+                                    </td>
+                                    
+                                    <th></th> 
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                        <a href="#"  id="vaciar-carrito"  class="btn-2">Vaciar carrito</a>
+                        <a href="#"  id="continuar-compra"  class="btn-continuar-compra">Continuar Compra</a>
+                        <p id="total-precio" class="total-precio">Total: $0</p>
+                        
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>   
+    
+    
+    
+    
+    
+        <div class="btn-left"><i class='bx bx-chevron-left'></i></div>
+        <div class="btn-right"><i class='bx bx-chevron-right'></i></div>
+
+
+    <!--SECION PRODUCTOS-->
+    <div class="texto-categorias-2">
+        <h3>Chinchorros Disponibles</h3>
+    </div>
+    
+    <br>
+    <br>
+
+    <div class="container-items"  id="lista-1">
+        <div class="item">
+            <figure>
+                <img src="../img/imagen_chinchorro1.jpeg"   id="img-carrito" alt="">
+            </figure>
+            <div class="info-producto">
+                <h3>Chinchorro Normal</h3>
+                <p   class="precio">$ 210.900</p>
+                <button   class="agregar-carrito"  data-id="1">añidir al Carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="../img/imagen_chinchorro2.jpeg" alt="">
+            </figure>
+            <div class="info-producto">
+                <h3>Chinchorro verde</h3>
+                <p class="precio " >$ 70.000</p>
+                <button   class="agregar-carrito" data-id="2">añidir al Carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="../img/imagen_chinchorro3.jpeg" alt="">
+            </figure>
+            <div class="info-producto">
+                <h3>Chinchorro Mariposa</h3>
+                <p  class="precio">$ 300.000</p>
+                <button   class="agregar-carrito"  data-id="3" >añidir al Carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="../img/imagen_chinchorro4.jpeg"   alt="">
+            </figure>
+            <div class="info-producto">
+                <h3>Chinchorro standar</h3>
+                <p class="precio" >$ 170.000</p>
+                <button  class="agregar-carrito"     data-id="4"  >añidir al Carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="../img/imagen_chinchorro5.jpeg" alt="">
+            </figure>
+            <div class="info-producto">
+                <h3>Chinchorro color crema</h3>
+                <p class="precio"   >$ 100.000</p>
+                <button   class="agregar-carrito"  data-id="5">añidir al Carrito</button>
+            </div>
+        </div>
+
+        
+        <div class="item">
+            <figure>
+                <img src="../img/imagen_chinchorro6.jpeg" alt="">
+            </figure>
+            <div class="info-producto">
+                <h3>Chinchorro para dama</h3>
+                <p  class="precio"  >$ 100.000</p>
+                <button   class="agregar-carrito"  data-id="6">añidir al Carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="../img/imagen_chinchorro7.jpeg" alt="">
+            </figure>
+            <div class="info-producto">
+                <h3>Chinchorro color abeja</h3>
+                <p  class="precio"  >$ 150.000</p>
+                <button   class="agregar-carrito"  data-id="7"> añidir al Carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="../img/imagen_chinchorro8.jpeg"alt="">
+            </figure>
+            <div class="info-producto">
+                <h3>Chinchorro color rosa</h3>
+                <p  class="precio"   >$ 220.000</p>
+                <button   class="agregar-carrito"  data-id="8"> añidir al Carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="../img/imagen_chinchorro9.jpeg" alt="">
+            </figure>
+            <div class="info-producto">
+                <h3>Chinchorro con estilo</h3>
+                <p class="precio"    >$ 100.000</p>
+                <button  class="agregar-carrito"  data-id="9">añidir al Carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="https://tse4.mm.bing.net/th?id=OIP.X3bgklOshAQbGDgGniljfQHaEK&pid=Api&P=0&h=180" alt="">
+            </figure>
+            <div class="info-producto">
+                <h3>Chinchorro azul marino</h3>
+                <p class="precio"    >$ 150.000</p>
+                <button  class="agregar-carrito"  data-id="10">añidir al Carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="https://tse3.mm.bing.net/th?id=OIP.1lGeG4VflDMM9lNQoO-CbAHaEI&pid=Api&P=0&h=180" alt="">
+            </figure>
+            <div class="info-producto">
+                <h3>Chinchorro 300 vueltas</h3>
+                <p class="precio"    >$ 220.000</p>
+                <button  class="agregar-carrito"  data-id="11">añidir al Carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="http://1.bp.blogspot.com/-7p20j_syAGI/UKVPScrGQCI/AAAAAAAAAB0/auIismdi64E/s1600/Image199.jpg" alt="">
+            </figure>
+            <div class="info-producto">
+                <h3>Chinchorro 300 vueltas</h3>
+                <p class="precio"   >$ 220.000</p>
+                <button  class="agregar-carrito"   data-id="12">  añidir al Carrito</button>
+            </div>
+        </div>
+    
+    </div> 
+    <div class="ir-arriba" >
+        <a href="./chinchorros.html" >Ir Arriba</a>
+    </div>
+    
+    
+
+    <footer>
+        <div class="footer-1">
+            <div  class="texto-tejido-peña">
+                <h3>
+                    Tejido de la peña
+                </h3>
+
+                <p>Somos una tienda 100% Casanareña y con altos estandares de calidad,nuestros productos estan echos por mujeres guerreras amas de casa.
+               </p>
+            </div>
+            <div  class="ir-inicio">
+                <a href="../index.html" class="enlace-inicio">Inicio</a>
+                
+            </div>
+
+            <div  class="categorias">
+                <h3>
+                    Categorias
+                </h3>
+                <a href="../categoria_chinchorros/chinchorros.html">1.Chinchorro</a>
+                <a href="../categoria_bolsos/bolsos.html" target="_blank"  >2.Bolsos</a>
+
+            </div>
+
+            
+            
+            
+            
+        </div>
+
+        <div  class="copyrigth">
+            <p>Copyright &copy; 2024 La Tienda Tejido De la peña-todos los derechos reservados</p>
+
+        </div>
+
+        <!--div iconos redes sociales-->
+        <div class="container-iconos-redes-sociales">
+            <h3>Contactos</h3>
+           <div class="iconos">
+            <a href="https://www.instagram.com/"><img src="../iconos_redes/Instagram.svg" alt="instagram"   target="_blank"></a>
+
+            <a href="https://www.facebook.com/profile.php?id=100057521826289&mibextid=ZbWKwL"  target="_blank"   ><img src="../iconos_redes/facebook.svg" class="icono-facebook"   alt="twitter"></a>
+
+            <a href="https://www.instagram.com/"><img src="../iconos_redes/Whatsap.svg" alt="instagram"  target="_blank" ></a>
+           </div>
+
+         </div>
+            
+
+        
+    </footer>
+    
+    <script src="chinchorros.js"></script>
+</body>
+</html>

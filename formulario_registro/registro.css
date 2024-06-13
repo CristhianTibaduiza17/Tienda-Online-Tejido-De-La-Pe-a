@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../formulario_login/img_fondo/img10.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+/*COLOR CONTAINER FORMULARIO*/
+.form-container {
+    background: #6190E8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 20px;
+    box-shadow: 100px 100px 100px rgba(30, 29, 29, 0.756);
+    border-radius: 8px;
+    margin-top: 6px;
+    height: 410px;
+    
+}
+
+.form-container h3{
+    font-size: 12px;
+}
+
+form h2 {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #e2e8e4;
+    margin-top: 15px;
+}
+
+button {
+    width: 97%;
+    padding: 10px;
+    background-color:  #26bc3a;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: 900;
+    
+    font-size: 17px;
+}
+
+button:hover {
+    background-color: #48d25b; 
+    
+}
+.Registrate{
+    margin-top: 60px;
+    font-weight: 900;
+    color: black;
+    text-decoration: none;
+}
+.Registrate:hover{
+    background:#48d25b ;
+    border-radius: 20%;
+}
